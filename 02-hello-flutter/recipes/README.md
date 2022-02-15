@@ -1,4 +1,4 @@
-# demo
+# recipes
 
 A new Flutter project.
 
