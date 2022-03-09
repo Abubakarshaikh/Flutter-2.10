@@ -1,146 +1,122 @@
+import 'dart:convert';
+
 class Recipe {
-  String label;
-  String imageUrl;
+  final String label;
+  final String imageUrl;
+  final int servings;
+  const Recipe({
+    required this.label,
+    required this.imageUrl,
+    required this.servings,
+  });
 
-  int servings;
-  List<Ingredient> ingredients;
+  Recipe copyWith({
+    String? label,
+    String? imageUrl,
+    int? servings,
+  }) {
+    return Recipe(
+      label: label ?? this.label,
+      imageUrl: imageUrl ?? this.imageUrl,
+      servings: servings ?? this.servings,
+    );
+  }
 
-  Recipe(this.label, this.imageUrl, this.servings, this.ingredients);
+  Map<String, dynamic> toMap() {
+    return {
+      'label': label,
+      'imageUrl': imageUrl,
+      'servings': servings,
+    };
+  }
 
-  static List<Recipe> samples = [
-    Recipe(
-      'Spaghetti and Meatballs',
-      'assets/2126711929_ef763de2b3_w.jpg',
-      4,
-      [
-        Ingredient(
-          1,
-          'box',
-          'Spaghetti',
-        ),
-        Ingredient(
-          4,
-          '',
-          'Frozen Meatballs',
-        ),
-        Ingredient(
-          0.5,
-          'jar',
-          'sauce',
-        ),
-      ],
-    ),
-    Recipe(
-      'Tomato Soup',
-      'assets/27729023535_a57606c1be.jpg',
-      2,
-      [
-        Ingredient(
-          1,
-          'can',
-          'Tomato Soup',
-        ),
-      ],
-    ),
-    Recipe(
-      'Grilled Cheese',
-      'assets/3187380632_5056654a19_b.jpg',
-      1,
-      [
-        Ingredient(
-          2,
-          'slices',
-          'Cheese',
-        ),
-        Ingredient(
-          2,
-          'slices',
-          'Bread',
-        ),
-      ],
-    ),
-    Recipe(
-      'Chocolate Chip Cookies',
-      'assets/15992102771_b92f4cc00a_b.jpg',
-      24,
-      [
-        Ingredient(
-          4,
-          'cups',
-          'flour',
-        ),
-        Ingredient(
-          2,
-          'cups',
-          'sugar',
-        ),
-        Ingredient(
-          0.5,
-          'cups',
-          'chocolate chips',
-        ),
-      ],
-    ),
-    Recipe(
-      'Taco Salad',
-      'assets/8533381643_a31a99e8a6_c.jpg',
-      1,
-      [
-        Ingredient(
-          4,
-          'oz',
-          'nachos',
-        ),
-        Ingredient(
-          3,
-          'oz',
-          'taco meat',
-        ),
-        Ingredient(
-          0.5,
-          'cup',
-          'cheese',
-        ),
-        Ingredient(
-          0.25,
-          'cup',
-          'chopped tomatoes',
-        ),
-      ],
-    ),
-    Recipe(
-      'Hawaiian Pizza',
-      'assets/15452035777_294cefced5_c.jpg',
-      4,
-      [
-        Ingredient(
-          1,
-          'item',
-          'pizza',
-        ),
-        Ingredient(
-          1,
-          'cup',
-          'pineapple',
-        ),
-        Ingredient(
-          8,
-          'oz',
-          'ham',
-        ),
-      ],
-    ),
-  ];
+  factory Recipe.fromMap(Map<String, dynamic> map) {
+    return Recipe(
+      label: map['label'] ?? '',
+      imageUrl: map['imageUrl'] ?? '',
+      servings: map['servings']?.toInt() ?? 0,
+    );
+  }
+
+  String toJson() => json.encode(toMap());
+
+  factory Recipe.fromJson(String source) => Recipe.fromMap(json.decode(source));
+
+  @override
+  String toString() =>
+      'Recipe(label: $label, imageUrl: $imageUrl, servings: $servings)';
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is Recipe &&
+        other.label == label &&
+        other.imageUrl == imageUrl &&
+        other.servings == servings;
+  }
+
+  @override
+  int get hashCode => label.hashCode ^ imageUrl.hashCode ^ servings.hashCode;
 }
 
 class Ingredient {
-  double quantity;
-  String measure;
-  String name;
+  final double quantity;
+  final String measure;
+  final String name;
+  const Ingredient({
+    required this.quantity,
+    required this.measure,
+    required this.name,
+  });
 
-  Ingredient(
-    this.quantity,
-    this.measure,
-    this.name,
-  );
+  Ingredient copyWith({
+    double? quantity,
+    String? measure,
+    String? name,
+  }) {
+    return Ingredient(
+      quantity: quantity ?? this.quantity,
+      measure: measure ?? this.measure,
+      name: name ?? this.name,
+    );
+  }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'quantity': quantity,
+      'measure': measure,
+      'name': name,
+    };
+  }
+
+  factory Ingredient.fromMap(Map<String, dynamic> map) {
+    return Ingredient(
+      quantity: map['quantity']?.toDouble() ?? 0.0,
+      measure: map['measure'] ?? '',
+      name: map['name'] ?? '',
+    );
+  }
+
+  String toJson() => json.encode(toMap());
+
+  factory Ingredient.fromJson(String source) =>
+      Ingredient.fromMap(json.decode(source));
+
+  @override
+  String toString() =>
+      'Ingredient(quantity: $quantity, measure: $measure, name: $name)';
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+
+    return other is Ingredient &&
+        other.quantity == quantity &&
+        other.measure == measure &&
+        other.name == name;
+  }
+
+  @override
+  int get hashCode => quantity.hashCode ^ measure.hashCode ^ name.hashCode;
 }

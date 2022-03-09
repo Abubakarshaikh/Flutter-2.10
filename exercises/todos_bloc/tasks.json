@@ -1,0 +1,14 @@
+[
+    {
+        "task": "Buy 1kg milk.",
+        "isComplete": false
+    },
+    {
+        "task": "Go to gym.",
+        "isComplete": false
+    },
+    {
+        "task": "read 1 article.",
+        "isComplete": true
+    }
+]

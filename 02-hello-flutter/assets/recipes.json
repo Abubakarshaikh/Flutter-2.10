@@ -1,0 +1,124 @@
+[
+    {
+        "label": "Spaghetti and Meatballs",
+        "image": "2126711929_ef763de2b3_w.jpg",
+        "servings": 4,
+        "ingredients": [
+            {
+                "quantity": 1,
+                "measure": "box",
+                "name": "Spaghetti"
+            },
+            {
+                "quantity": 4,
+                "measure": "",
+                "name": "Frozen Meatballs"
+            },
+            {
+                "quantity": 0.5,
+                "measure": "jar",
+                "name": "sauce"
+            }
+        ]
+    },
+    {
+        "label": "Tomato Soup",
+        "image": "27729023535_a57606c1be.jpg",
+        "servings": 2,
+        "ingredients": [
+            {
+                "quantity": 1,
+                "measure": "can",
+                "name": "Tomato Soup"
+            }
+        ]
+    },
+    {
+        "label": "Grilled Cheese",
+        "image": "3187380632_5056654a19_b.jpg",
+        "servings": 1,
+        "ingredients": [
+            {
+                "quantity": 2,
+                "measure": "slices",
+                "name": "Cheese"
+            },
+            {
+                "quantity": 2,
+                "measure": "slices",
+                "name": "Bread"
+            }
+        ]
+    },
+    {
+        "label": "Chocolate Chip Cookies",
+        "image": "15992102771_b92f4cc00a_b.jpg",
+        "servings": 24,
+        "ingredients": [
+            {
+                "quantity": 4,
+                "measure": "cups",
+                "name": "flour"
+            },
+            {
+                "quantity": 2,
+                "measure": "cups",
+                "name": "sugar"
+            },
+            {
+                "quantity": 0.5,
+                "measure": "cups",
+                "name": "chocolate chips"
+            }
+        ]
+    },
+    {
+        "label": "Taco Salad",
+        "image": "8533381643_a31a99e8a6_c.jpg",
+        "servings": 1,
+        "ingredients": [
+            {
+                "quantity": 4,
+                "measure": "oz",
+                "name": "nachos"
+            },
+            {
+                "quantity": 3,
+                "measure": "oz",
+                "name": "taco meat"
+            },
+            {
+                "quantity": 0.5,
+                "measure": "cup",
+                "name": "cheese"
+            },
+            {
+                "quantity": 0.25,
+                "measure": "cup",
+                "name": "chopped tomatoes"
+            }
+        ]
+    },
+    {
+        "label": "Hawaiian Pizza",
+        "image": "15452035777_294cefced5_c.jpg",
+        "servings": 4,
+        "ingredients": [
+            {
+                "quantity": 1,
+                "measure": "item",
+                "name": "pizza"
+            },
+            {
+                "quantity": 1,
+                "measure": "cup",
+                "name": "pineapple"
+            },
+            {
+                "quantity": 8,
+                "measure": "oz",
+                "name": "ham"
+            }
+        ]
+    }
+]
