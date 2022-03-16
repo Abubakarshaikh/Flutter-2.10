@@ -1,0 +1,21 @@
+Resourses.
+- Remi Rousselet
+- Felix Angelov
+- Johannes Milke (for functionalities)
+- The Flutter Way
+- diegoveloper
+
+
+
+Beginner.
+. widgets concepts
+. compnents concepts
+. internal plugins
+. external plugins
+
+Intermediate.
+. animations
+
+
+Advance.
+. state management
