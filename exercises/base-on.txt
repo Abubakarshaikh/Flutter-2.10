@@ -1,3 +1,5 @@
+TRY NEVER DO ANY WORK AT HOME, EVEN STUDY GO OUTSIDE FROM HOME.
+
 Why you are teaching in onsite and online?
 - just for learning purpose.
 
@@ -6,20 +8,17 @@ Need to Learn.
 * Native Plugins upto 10. e.g camera, voice, call, message, video.
 * Third party plugins. e.g. provider, getx, riverpot, bloc, sqlflite, sharepreference
 * Firebase. e.g. firestore, notification, functions, authentication, storage.
-
 * Dart advance class/OOP and asynchronouse programming chapters.
 * Pixel perfect design. e.g. run on all size mobiles.
-
 * Cross platform responsive design. e.g run all platforms.
-
 * Navigation 2.0. e.g. go_router
-
 * Top 3 State management. e.g Provider, Getx, Riverpod.
 * Storage. e.g sqlflite, sharepreference
+* Error Handling
 * Deployment.
 * Testing.
 * CI/CD.
-* Animation.
+* Advance Animation.
 
 Resourses.
 - Remi Rousselet
@@ -27,3 +26,24 @@ Resourses.
 - Johannes Milke (for functionalities)
 - The Flutter Way
 - diegoveloper
+
+01-mi_card
+02-counter
+03-dicee
+04-guess_number
+05-quizzler
+06-bmi_calculator
+- More Widgets.
+- enums
+
+07-rock_scissor_paper
+08-tic_tac_toe
+
+09-clima
+- (Book) Advance Dart Class
+- (Book) Asynchronouse Programming
+- http api call
+- Data class
+
+10-todoey
+- what is state management.
