@@ -11,7 +11,7 @@ Need to Learn.
 * Dart advance class/OOP and asynchronouse programming chapters.
 * Pixel perfect design. e.g. run on all size mobiles.
 * Cross platform responsive design. e.g run all platforms.
-* Navigation 2.0. e.g. go_router
+* Navigation 1.0 OR Navigation 2.0. e.g. go_router
 * Top 3 State management. e.g Provider, Getx, Riverpod.
 * Storage. e.g sqlflite, sharepreference
 * Error Handling
