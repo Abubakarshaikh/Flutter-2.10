@@ -1,0 +1,58 @@
+[
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1999
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1989
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1299
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1991
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 2299
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1989
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 1459
+    },
+    {
+        "brand": "Apple",
+        "title": "Macbook Pro (14-inch, Apple M1 Pro)",
+        "image": "assets/images/macbook.png",
+        "quantity": 1,
+        "price": 3199
+    }
+]

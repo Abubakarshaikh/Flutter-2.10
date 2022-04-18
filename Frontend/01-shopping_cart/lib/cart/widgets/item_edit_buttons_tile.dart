@@ -23,13 +23,15 @@ class ItemEditButtonsTile extends StatelessWidget {
         children: [
           InkWell(
             child: cartItem.quantity < 2
-                ? Icon(Icons.delete_outlined, color: Colors.red)
-                : Icon(Icons.remove),
+                ? const Icon(Icons.delete_outlined, color: Colors.red)
+                : const Icon(Icons.remove),
             onTap: () {
               context.read<CartBloc>().add(Decrement(cartItem));
             },
           ),
-          Text(cartItem.quantity <10 ? "0${cartItem.quantity}" : "${cartItem.quantity}"),
+          Text(cartItem.quantity < 10
+              ? "0${cartItem.quantity}"
+              : "${cartItem.quantity}"),
           InkWell(
             child: const Icon(Icons.add),
             onTap: () {

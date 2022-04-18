@@ -34,9 +34,10 @@ class CartItemTile extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                    child: ItemEditButtonsTile(
-                  cartItem: cartItem,
-                )),
+                  child: ItemEditButtonsTile(
+                    cartItem: cartItem,
+                  ),
+                ),
                 const SizedBox(width: 12),
                 const Expanded(child: Opacity(opacity: 0)),
               ],

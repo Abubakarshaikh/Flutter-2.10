@@ -9,7 +9,7 @@
     {
         "brand": "Apple",
         "title": "Macbook Pro (14-inch, Apple M1 Pro)",
-        "image": "assets/images/macbook.png",
+        "image": "assets/images/airpod.png",
         "quantity": 1,
         "price": 1899
     },
@@ -23,14 +23,14 @@
     {
         "brand": "Apple",
         "title": "Macbook Pro (14-inch, Apple M1 Pro)",
-        "image": "assets/images/macbook.png",
+        "image": "assets/images/airpod.png",
         "quantity": 1,
         "price": 1699
     },
     {
         "brand": "Apple",
         "title": "Macbook Pro (14-inch, Apple M1 Pro)",
-        "image": "assets/images/macbook.png",
+        "image": "assets/images/airpod.png",
         "quantity": 1,
         "price": 1599
     },
@@ -44,7 +44,7 @@
     {
         "brand": "Apple",
         "title": "Macbook Pro (14-inch, Apple M1 Pro)",
-        "image": "assets/images/macbook.png",
+        "image": "assets/images/airpod.png",
         "quantity": 1,
         "price": 1399
     },
@@ -58,7 +58,7 @@
     {
         "brand": "Apple",
         "title": "Macbook Pro (14-inch, Apple M1 Pro)",
-        "image": "assets/images/macbook.png",
+        "image": "assets/images/airpod.png",
         "quantity": 1,
         "price": 1199
     }

@@ -1,0 +1,27 @@
+TODOS #1
+* json data
+* data class
+* repository
+
+TODOS #2
+* state
+* event
+* bloc
+
+TODOS #3
+* main.dart
+* app.dart
+* cart_page.dart
+
+TODOS #4
+* cart_item_tile.dart
+
+TODOS #5
+* cart_item_thumbnail.dart
+
+TODOS #6
+* cart_item_details.dart
+
+TODOS #7
+* item_edit_buttons_tile.dart
+* opacity
